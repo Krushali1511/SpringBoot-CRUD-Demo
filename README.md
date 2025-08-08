@@ -74,7 +74,7 @@ Run Locally
 Using the Maven wrapper:
 
 bash
-Copy code
+
 # From project root
 ./mvnw spring-boot:run     # macOS/Linux
 mvnw.cmd spring-boot:run   # Windows
@@ -82,7 +82,7 @@ Then open: http://localhost:8080
 
 Build a JAR
 bash
-Copy code
+
 ./mvnw clean package
 java -jar target/*.jar
 
@@ -104,7 +104,7 @@ GET /h2-console → H2 DB console
 
 🧪 Testing
 bash
-Copy code
+
 ./mvnw test
 📑 Assignment Mapping
 Assignment 3:
